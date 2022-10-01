@@ -178,6 +178,7 @@ export default {
     // },
 
     changeStatus(index) {},
+    //
     finishEdit(event, index) {
       this.tasks[index].name = event.srcElement.value;
       this.tasks[index].editing = false;
